@@ -209,7 +209,8 @@ button, input, select, textarea {
   object-fit: contain;
 }
 
-.nav-desktop {
+.nav-desktop,
+.nav-menu {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -1327,8 +1328,22 @@ textarea.form-control {
 
 @media (max-width: 768px) {
   .nav-desktop,
+  .nav-menu:not(.is-open),
   .header-actions .header-phone-link {
     display: none;
+  }
+
+  .main-header .container {
+    padding: 0 1rem;
+  }
+
+  .header-actions .btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .brand-logo-img {
+    height: 42px;
   }
 
   .hamburger-btn {
@@ -1347,6 +1362,7 @@ textarea.form-control {
     padding: 2rem;
     z-index: 99;
     border-top: 1px solid var(--border-subtle);
+    overflow-y: auto;
   }
 
   .nav-menu.is-open .nav-list {
@@ -1355,8 +1371,29 @@ textarea.form-control {
     font-size: 1.15rem;
   }
 
+  .hero-section {
+    padding: 3rem 0 4rem;
+  }
+
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
+    line-height: 1.18;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .section-padding {
+    padding: 4rem 0;
   }
 
   .section-title {
@@ -1368,6 +1405,7 @@ textarea.form-control {
   .stats-grid,
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
   .floating-badge {
@@ -1375,10 +1413,70 @@ textarea.form-control {
     margin-top: 1rem;
   }
 
+  .floating-guarantee-card {
+    position: static;
+    margin-top: 1.25rem;
+    max-width: 100%;
+  }
+
+  .final-cta-box {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .final-cta-actions {
+    flex-direction: column;
+  }
+
+  .final-cta-actions .btn {
+    width: 100%;
+  }
+
   .footer-bottom {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+  }
+
+  .modal-box {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .form-control {
+    font-size: 16px; /* Evita auto-zoom do Safari iOS */
+  }
+
+  .fab-whatsapp {
+    bottom: 18px;
+    right: 18px;
+    width: 54px;
+    height: 54px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .hero-main-img {
+    height: 280px;
+  }
+
+  .why-us-img {
+    height: 280px;
+  }
+
+  .stat-number-wrap {
+    font-size: 2.5rem;
   }
 }
 

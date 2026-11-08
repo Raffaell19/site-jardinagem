@@ -1297,8 +1297,12 @@ textarea.form-control {
     gap: 3rem;
   }
 
+  .hero-content {
+    order: 1;
+  }
+
   .hero-visual {
-    order: -1;
+    order: 2;
   }
 
   .hero-main-img {

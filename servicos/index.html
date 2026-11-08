@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerraVerde Jardinagem Profissional | Manutenção, Roçagem e Podas</title>
+  <meta name="description" content="Serviços profissionais de jardinagem residencial e condominial. Corte de grama, roçagem, podas técnicas, adubação e recuperação de áreas verdes com equipamentos próprios e equipe uniformizada.">
+  <meta name="keywords" content="jardinagem profissional, jardineiro, corte de grama, roçagem de terreno, poda de árvores, poda de cerca viva, manutenção de jardim condomínio, adubação de gramado">
+  <meta name="author" content="TerraVerde Jardinagem Profissional">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TerraVerde Jardinagem Profissional | Corte de Grama, Roçagem e Podas">
+  <meta property="og:description" content="Especialistas em manutenção de jardins residenciais, comerciais e condomínios. Orçamento rápido pelo WhatsApp.">
+  <meta property="og:image" content="showcase-servicos-jardinagem.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo-terraverde.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cabinet+Grotesk:wght@800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "TerraVerde Jardinagem Profissional",
+    "image": "logo-terraverde.png",
+    "description": "Prestação de serviços profissionais de jardinagem, roçagem, podas técnicas e manutenção de áreas verdes residenciais e condominiais.",
+    "telephone": "+55-11-99999-9999",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "07:30",
+        "closes": "18:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       MAIN HEADER (Top Announcement Bar Ban: O site inicia diretamente no header)
+       ========================================================================== -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="#inicio" class="brand-logo-link" aria-label="TerraVerde Jardinagem Profissional - Página Inicial">
+        <img src="logo-terraverde.png" alt="TerraVerde Jardinagem Profissional Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Navegação Desktop -->
+      <nav class="nav-menu" id="navMenu" aria-label="Navegação Principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#portfolio" class="nav-link">Projetos Executados</a></li>
+          <li><a href="#depoimentos" class="nav-link">Avaliações</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ações do Header -->
+      <div class="header-actions">
+        <a href="tel:+5511999999999" class="header-phone-link">
+          <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>(11) 99999-9999</span>
+        </a>
+        <button class="btn btn-primary open-triage-modal" data-service="Orçamento Rápido de Jardinagem">
+          Solicitar Orçamento
+        </button>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>SERVIÇOS PROFISSIONAIS DE JARDINAGEM & ROÇAGEM</span>
+          </div>
+
+          <h1 class="hero-title">
+            Seu Jardim Impecável, <br>
+            Cuidado por Quem <span class="highlight-amber">Entende de Serviço.</span>
+          </h1>
+
+          <p class="hero-description">
+            Corte de grama milimétrico, roçagem de terrenos, podas técnicas de árvores e cercas vivas, adubação e controle de pragas. Atendimento ágil para residências, chácaras, empresas e condomínios com equipe uniformizada e maquinário próprio.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg open-triage-modal pulse-button" data-service="Manutenção Completa de Jardim">
+              <svg class="icon-md" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              Orçamento pelo WhatsApp
+            </button>
+            <a href="#servicos" class="btn btn-outline btn-lg">
+              Conhecer Nossos Serviços
+            </a>
+          </div>
+
+          <div class="hero-social-proof">
+            <div class="stars">★★★★★</div>
+            <div class="proof-text">
+              <strong>Nota 4.9 de 5</strong> • Mais de <strong>1.450 áreas verdes atendidas</strong> com aprovação total de clientes e síndicos.
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-main-img-wrap">
+            <img 
+              src="hero-servicos-jardinagem.jpg" 
+              alt="Jardineiro profissional operando máquina de corte de grama em jardim residencial amplo" 
+              class="hero-main-img"
+            >
+          </div>
+          <!-- Badges Flutuantes -->
+          <div class="floating-badge badge-top-right">
+            <div class="badge-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="badge-text">
+              <strong>Equipamentos Próprios</strong>
+              <span>Gasolina e bateria silenciosa</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-left">
+            <div class="badge-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="badge-text">
+              <strong>Atendimento Rápido</strong>
+              <span>Visitas e orçamentos em 24h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PILARS BAR / VALOR OPERACIONAL
+         ========================================================================== -->
+    <section class="value-bar-section">
+      <div class="container">
+        <div class="value-grid">
+          <div class="value-item">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <div class="value-info">
+              <h4>Orçamento Sem Surpresas</h4>
+              <p>Envie fotos pelo WhatsApp e receba valores transparentes.</p>
+            </div>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="value-info">
+              <h4>EPI & Segurança Total</h4>
+              <p>Equipe com seguro, uniforme e equipamentos de segurança.</p>
+            </div>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <div class="value-info">
+              <h4>Limpeza Pós-Serviço</h4>
+              <p>Gramado ensacado e calçadas sopradas sem sujeira.</p>
+            </div>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div class="value-info">
+              <h4>Planos Mensais e Avulsos</h4>
+              <p>Contratos periódicos para condomínios e residências.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES GRID
+         ========================================================================== -->
+    <section class="section-padding services-section" id="servicos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">NOSSOS SERVIÇOS OPERACIONAIS</span>
+          <h2 class="section-title">O Cuidado Completo que a Sua Área Verde Precisa</h2>
+          <p class="section-subtitle">
+            Mão de obra especializada com maquinário profissional para manter seu jardim saudável, valorizado e sempre com aspecto de recém-cuidado.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Serviço 1: Corte de Grama e Roçagem -->
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1589923188900-85dae523342b?w=600&auto=format&fit=crop&q=80" 
+                alt="Operador realizando corte de grama profissional com cortador a gasolina" 
+                class="service-img"
+                loading="lazy"
+              >
+              <div class="service-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Corte de Grama & Roçagem de Terrenos</h3>
+              <p class="service-desc">
+                Corte nivelado e uniforme com aparadores de fio e lâmina. Atendemos gramados residenciais, chácaras e roçagem de lotes em geral.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Recolhimento e ensacamento da palha</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Acabamento rente a muros e calçadas</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Roçadeiras potentes para mato alto</span>
+                </li>
+              </ul>
+              <button class="btn-card-quote open-triage-modal" data-service="Corte de Grama e Roçagem">
+                Pedir Orçamento
+              </button>
+            </div>
+          </div>
+
+          <!-- Serviço 2: Podas Técnicas de Cercas Vivas e Árvores -->
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&auto=format&fit=crop&q=80" 
+                alt="Poda técnica e alinhamento de cerca viva e arbustos ornamentais" 
+                class="service-img"
+                loading="lazy"
+              >
+              <div class="service-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v12M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-3 4a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+              </div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Podas Técnicas & Cercas Vivas</h3>
+              <p class="service-desc">
+                Alinhamento geométrico de cercas vivas (sansão-do-campo, pingo-de-ouro, murta) e poda de formação e contenção de árvores e arbustos.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Podadores mecânicos de alta precisão</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Retirada de galhos secos e perigosos</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Estímulo a brotações mais densas</span>
+                </li>
+              </ul>
+              <button class="btn-card-quote open-triage-modal" data-service="Poda de Cercas Vivas e Árvores">
+                Pedir Orçamento
+              </button>
+            </div>
+          </div>
+
+          <!-- Serviço 3: Manutenção Periódica de Condomínios e Empresas -->
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&auto=format&fit=crop&q=80" 
+                alt="Manutenção contínua de áreas verdes em condomínio residencial horizontal" 
+                class="service-img"
+                loading="lazy"
+              >
+              <div class="service-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Manutenção Condominial & Empresarial</h3>
+              <p class="service-desc">
+                Cronogramas semanais ou quinzenais com escala pontual, notas fiscais e relatórios. O jardim do condomínio sempre verde e bem apresentado.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Contratos mensais com preço fixo</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Equipe própria com seguro e uniforme</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Emissão de Nota Fiscal e relatórios</span>
+                </li>
+              </ul>
+              <button class="btn-card-quote open-triage-modal" data-service="Contrato de Manutenção para Condomínio">
+                Pedir Orçamento
+              </button>
+            </div>
+          </div>
+
+          <!-- Serviço 4: Adubação, Solo e Controle de Pragas -->
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=600&auto=format&fit=crop&q=80" 
+                alt="Preparo de canteiro fértil com adubo orgânico e composto enriquecido" 
+                class="service-img"
+                loading="lazy"
+              >
+              <div class="service-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 1 10 10c0 5.25-3.8 9.5-8.8 9.9V14h3l-4-5-4 5h3v7.9C6.8 21.5 3 17.25 3 12A10 10 0 0 1 12 2z"/></svg>
+              </div>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Adubação, Gramados & Pragas</h3>
+              <p class="service-desc">
+                Correção de acidez do solo (calagem), adubação química (NPK) e orgânica, combate a ervas daninhas, formigas e fungos do gramado.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Eliminação de pragas e lagartas</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Recuperação de gramados amarelados</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Replantio e correção de falhas</span>
+                </li>
+              </ul>
+              <button class="btn-card-quote open-triage-modal" data-service="Adubação e Recuperação de Solo">
+                Pedir Orçamento
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         STATS COUNTER
+         ========================================================================== -->
+    <section class="stats-counter-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="12">0</span>+
+            </div>
+            <div class="stat-label">Anos de Experiência</div>
+            <div class="stat-desc">Atuação profissional sólida no setor</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="1450">0</span>+
+            </div>
+            <div class="stat-label">Serviços Executados</div>
+            <div class="stat-desc">Residências, chácaras e empresas</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="85">0</span>+
+            </div>
+            <div class="stat-label">Condomínios Atendidos</div>
+            <div class="stat-desc">Contratos mensais ativos com síndicos</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="100">0</span>%
+            </div>
+            <div class="stat-label">Limpeza Garantida</div>
+            <div class="stat-desc">Área limpa e grama ensacada ao final</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHY CHOOSE US / DIFERENCIAIS
+         ========================================================================== -->
+    <section class="section-padding why-us-section" id="diferenciais">
+      <div class="container">
+        <div class="why-us-grid">
+          <div class="why-us-content">
+            <span class="section-tag">POR QUE CONTRATAR A TERRAVERDE</span>
+            <h2 class="section-title">Profissionalismo e Pontualidade que Fazem a Diferença</h2>
+            <p class="section-subtitle">
+              Chega de jardineiros que somem no meio do serviço ou deixam calçadas cheias de mato cortado. Na TerraVerde, você tem equipe técnica, ferramentas de ponta e respeito rigoroso aos prazos combinados.
+            </p>
+
+            <div class="benefits-checklist">
+              <div class="benefit-item">
+                <div class="check-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="benefit-content">
+                  <h4>Maquinário de Linha Profissional Próprio</h4>
+                  <p>Trabalhamos com cortadores com tração, roçadeiras potentes, podadores de altura e sopradores elétricos para não perturbar a vizinhança.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="check-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="benefit-content">
+                  <h4>Descarte Ecológico e Recolhimento Completo</h4>
+                  <p>Todo o entulho verde, folhas secas e aparas são ensacados adequadamente. Não deixamos sujeira nas garagens ou calçadas.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="check-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="benefit-content">
+                  <h4>Contratos Transparentes com Emissão de NF</h4>
+                  <p>Segurança jurídica para administradoras de condomínios, síndicos profissionais e residências com pagamentos facilitados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-us-visual">
+            <div class="why-us-img-box">
+              <img 
+                src="showcase-servicos-jardinagem.jpg" 
+                alt="Gramado com corte perfeito e aparado milimetricamente em jardim residencial" 
+                class="why-us-img"
+              >
+            </div>
+            <div class="floating-guarantee-card">
+              <h5>Compromisso TerraVerde</h5>
+              <p>Se você encontrar qualquer detalhe fora do combinado, nossa equipe retorna sem custo adicional para ajustar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO / PROJETOS EXECUTADOS
+         ========================================================================== -->
+    <section class="section-padding gallery-section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">SERVIÇOS REAIS EXECUTADOS</span>
+          <h2 class="section-title">Confira a Qualidade do Nosso Trabalho na Prática</h2>
+          <p class="section-subtitle">
+            Veja antes e depois de gramados renovados, alinhamento de cercas vivas e roçagens profissionais realizadas pela equipe.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <div class="gallery-img-container">
+              <img 
+                src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=600&auto=format&fit=crop&q=80" 
+                alt="Gramado esmeralda aparado e canteiros contornados com pedras decorativas" 
+                loading="lazy"
+              >
+              <span class="gallery-tag">Residência de Alto Padrão</span>
+            </div>
+            <div class="gallery-info">
+              <h4>Corte e Alinhamento em Condomínio Fechado</h4>
+              <p>Revitalização de 600m² de grama esmeralda com adubação de cobertura, recorte nos bordos dos canteiros e calçadas perfeitamente limpas.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-container">
+              <img 
+                src="https://images.unsplash.com/photo-1598902108854-10e335adac99?w=600&auto=format&fit=crop&q=80" 
+                alt="Poda de formação de cerca viva e arbustos tropicais" 
+                loading="lazy"
+              >
+              <span class="gallery-tag">Poda Técnica</span>
+            </div>
+            <div class="gallery-info">
+              <h4>Alinhamento Retilíneo de Cerca Viva</h4>
+              <p>Poda de 85 metros lineares de sansão-do-campo com aparadores mecânicos, remoção de brotos invasores e adubação foliar de reforço.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-container">
+              <img 
+                src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&auto=format&fit=crop&q=80" 
+                alt="Limpeza e recuperação de jardim condominial com plantas ornamentais" 
+                loading="lazy"
+              >
+              <span class="gallery-tag">Contrato Condominial</span>
+            </div>
+            <div class="gallery-info">
+              <h4>Manutenção Contínua em Condomínio</h4>
+              <p>Escala quinzenal cobrindo praças internas, playgrounds, área de piscina e taludes com corte pontual e tratamento contra pragas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS
+         ========================================================================== -->
+    <section class="section-padding testimonials-section" id="depoimentos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">QUEM CONTRATA APROVA</span>
+          <h2 class="section-title">O Que Dizem Nossos Clientes e Síndicos</h2>
+          <p class="section-subtitle">
+            Transparência e serviço bem feito geram recomendações espontâneas.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Contratamos a TerraVerde para a roçagem e nivelamento de um terreno de 1.200m² que estava abandonado. Fizeram o serviço em um único dia, recolheram tudo em sacos próprios e deixaram a calçada impecável. Recomendo de olhos fechados!"
+            </p>
+            <div class="client-meta">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80" alt="Marcos Rogério" class="client-photo">
+              <div class="client-info">
+                <strong>Marcos Rogério</strong>
+                <span>Proprietário de Terreno</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Como síndica de um condomínio de 42 casas, encontrar uma empresa com pontualidade e equipe uniformizada era um desafio. A TerraVerde cuida do nosso cronograma quinzenal há 2 anos sem uma única falha de agenda."
+            </p>
+            <div class="client-meta">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80" alt="Luciana Silveira" class="client-photo">
+              <div class="client-info">
+                <strong>Luciana Silveira</strong>
+                <span>Síndica Profissional</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "A cerca viva da minha chácara estava toda torta e cheia de falhas. A equipe fez a poda no nível perfeito a laser e aplicou adubo nos canteiros. O gramado voltou a ficar verde escuro e denso em poucas semanas."
+            </p>
+            <div class="client-meta">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80" alt="Fernando Guimarães" class="client-photo">
+              <div class="client-info">
+                <strong>Fernando Guimarães</strong>
+                <span>Proprietário de Chácara</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ ACCORDION
+         ========================================================================== -->
+    <section class="section-padding faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <span class="section-tag">TIRE SUAS DÚVIDAS</span>
+          <h2 class="section-title">Perguntas Frequentes Sobre Nossos Serviços</h2>
+          <p class="section-subtitle">
+            Tudo o que você precisa saber sobre visitas técnicas, formas de contratação e equipamentos.
+          </p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="faq-item is-active">
+            <button class="faq-question" aria-expanded="true">
+              <span>Como posso solicitar um orçamento rápido?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Basta enviar fotos ou um vídeo curto do seu jardim ou terreno pelo WhatsApp, informando a metragem aproximada e o serviço desejado (ex: corte de grama, poda ou roçagem). Respondemos com uma estimativa rápida em poucos minutos ou agendamos uma visita técnica no local.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Vocês fornecem todos os equipamentos e gasolina?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! Nossa equipe vai equipada com cortadores a combustão e a bateria, roçadeiras profissionais, tesouras de poda, sopradores e sacos reforçados para recolhimento. O cliente não precisa fornecer nenhuma ferramenta.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>O que é feito com a grama e os galhos cortados?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Toda a palha e sobras de podas são recolhidas, ensacadas e destinadas adequadamente. Deixamos as calçadas, muros e garagens completamente varridas e sopradas ao final de cada expediente.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como funcionam os planos mensais para condomínios e empresas?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Elaboramos um cronograma fixo (semanal, quinzenal ou mensal) adaptado às necessidades do seu espaço. O contrato inclui corte regular, controle preventivo de pragas, adubação sazonal, emissão de Nota Fiscal e seguro completo para tranquilidade da administração.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FINAL CTA
+         ========================================================================== -->
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta-box">
+          <span class="section-tag">AGENDAMENTO RÁPIDO & PRÁTICO</span>
+          <h2 class="section-title">Pronto para Ver Seu Jardim Saudável e Perfeitamente Cuidado?</h2>
+          <p>
+            Fale conosco agora mesmo pelo WhatsApp, envie fotos da sua área verde e receba uma proposta personalizada sem compromisso.
+          </p>
+          <div class="final-cta-actions">
+            <button class="btn btn-primary btn-lg open-triage-modal pulse-button" data-service="Solicitação Direta via CTA Final">
+              <svg class="icon-md" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              Chamar no WhatsApp Agora
+            </button>
+            <a href="tel:+5511999999999" class="btn btn-outline btn-lg">
+              <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Ligar Diretamente
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="logo-terraverde.png" alt="TerraVerde Logo" style="height: 48px; width: auto; margin-bottom: 0.5rem;">
+          <p class="footer-desc">
+            Empresa especializada na prestação de serviços de jardinagem, roçagem, podas técnicas e manutenção periódica para condomínios, empresas e residências.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Nossos Serviços</h5>
+          <ul>
+            <li><a href="#servicos">Corte de Grama Profissional</a></li>
+            <li><a href="#servicos">Roçagem de Terrenos & Chácaras</a></li>
+            <li><a href="#servicos">Poda de Cercas Vivas & Árvores</a></li>
+            <li><a href="#servicos">Adubação & Tratamento de Solo</a></li>
+            <li><a href="#servicos">Contratos para Condomínios</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navegação Rápida</h5>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#portfolio">Projetos Executados</a></li>
+            <li><a href="#depoimentos">Avaliações</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Atendimento & Contato</h5>
+          <ul>
+            <li><strong>Telefone / WhatsApp:</strong> (11) 99999-9999</li>
+            <li><strong>E-mail:</strong> contato@terraverdejardinagem.com.br</li>
+            <li><strong>Horário:</strong> Segunda a Sábado: 07:30 às 18:30</li>
+            <li><strong>Região Atendida:</strong> São Paulo e Região Metropolitana</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 TerraVerde Jardinagem Profissional. Todos os direitos reservados.</p>
+        <p>Desenvolvido com excelência por <a href="https://agenciaconnectdigital.com.br" target="_blank" rel="noopener">Connect Digital</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL DE TRIAGEM INTELIGENTE (WHATSAPP)
+       ========================================================================== -->
+  <div class="modal-wrapper" id="triageModal" aria-hidden="true" role="dialog">
+    <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Fechar janela">&times;</button>
+      <div class="modal-header">
+        <h3>Solicitar Orçamento Rápido</h3>
+        <p>Preencha os campos abaixo para ser atendido diretamente no WhatsApp com dados precisos:</p>
+      </div>
+
+      <form id="modalTriageForm">
+        <div class="form-group">
+          <label for="clientName">Seu Nome:</label>
+          <input type="text" id="clientName" class="form-control" placeholder="Ex: Rodrigo Mendes" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalServiceSelect">Serviço Principal:</label>
+          <select id="modalServiceSelect" class="form-control">
+            <option value="Corte de Grama e Roçagem">Corte de Grama & Roçagem de Terreno</option>
+            <option value="Poda de Cercas Vivas e Árvores">Poda Técnica de Cercas Vivas & Árvores</option>
+            <option value="Manutenção de Jardim para Condomínio">Contrato Mensal para Condomínio / Empresa</option>
+            <option value="Adubação e Recuperação de Solo">Adubação, Gramados & Combate a Pragas</option>
+            <option value="Outro Serviço de Jardinagem">Outro Serviço Operacional</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="modalAreaType">Tipo de Imóvel / Espaço:</label>
+          <select id="modalAreaType" class="form-control">
+            <option value="Residencial (Casa / Sobrado)">Residencial (Casa / Sobrado)</option>
+            <option value="Condomínio Residencial ou Comercial">Condomínio Residencial ou Comercial</option>
+            <option value="Chácara ou Sítio">Chácara ou Sítio</option>
+            <option value="Terreno / Lote Vazio">Terreno / Lote Vazio</option>
+            <option value="Empresa / Galpão Comercial">Empresa / Galpão Comercial</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="clientNotes">Observações ou Metragem Estimada (Opcional):</label>
+          <textarea id="clientNotes" class="form-control" placeholder="Ex: Cerca de 300m² de grama, mato alto precisando de roçadeira..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg">
+          <svg class="icon-md" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+          Iniciar Orçamento no WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON (FAB)
+       ========================================================================== -->
+  <a 
+    href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20TerraVerde%20Jardinagem!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20minha%20%C3%A1rea%20verde." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="fab-whatsapp" 
+    aria-label="Falar conosco via WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+    </svg>
+  </a>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
